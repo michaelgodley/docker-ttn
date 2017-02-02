@@ -1,0 +1,15 @@
+id: mynetwork-broker
+tls: true
+key-dir: /etc/ttn/broker/
+auth-servers:
+  ttn-account-v2: "https://account.thethingsnetwork.org"
+
+discovery-address: "discovery.local.thethings.network:1900"
+auth-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE0ODU5NjM2NzIsImlzcyI6ImxvY2FsIiwibmJmIjoxNDg1OTYzNjcyLCJzdWIiOiJteW5ldHdvcmstYnJva2VyIiwidHlwZSI6ImJyb2tlciJ9.rlEoLVaOAPpszazgnvYwfmJhBNnLLmbh0NaLiDW7h_xfN4WzgBvoOYkHYi73rrodLrJgEmflrf2VdYxMwpH9lg
+
+networkserver-address: networkserver.local.thethings.network
+
+broker:
+  server-address-announce: broker.local.thethings.network
+  networkserver-cert: /etc/ttn/broker/networkserver.cert
+  networkserver-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE0ODU5Njg1MjgsImlzcyI6Im15bmV0d29yay1uZXR3b3Jrc2VydmVyIiwibmJmIjoxNDg1OTY4NTI4LCJzdWIiOiJteW5ldHdvcmstYnJva2VyIn0.K69LffOgUOE5AfxjVCUiAre0N1AiYTPLBR2BH2jMYemn_QrPRZDVyNgr8kQ7bZ_t0D1oN-wLi2z5ETz-ZloYpA

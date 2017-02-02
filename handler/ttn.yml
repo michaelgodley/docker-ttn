@@ -1,0 +1,15 @@
+id: mynetwork-handler
+tls: true
+key-dir: /etc/ttn/handler/
+auth-servers:
+  ttn-account-v2: "https://account.thethingsnetwork.org"
+
+discovery-address: "discovery.local.thethings.network:1900"
+auth-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE0ODU5NjM4NzIsImlzcyI6ImxvY2FsIiwibmJmIjoxNDg1OTYzODcyLCJzdWIiOiJteW5ldHdvcmstaGFuZGxlciIsInR5cGUiOiJoYW5kbGVyIn0.qUSQIyuDvcMwwJ9wxWNDkElIV_UgP0fzTb_63tVfKb5BICWd3Hu79jTYTiOc8h6d1fh5dPoQz8Njfiw55reezA
+
+handler:
+  server-address-announce: handler.local.thethings.network
+  broker-id: mynetwork-broker
+  mqtt-address: rabbitmq:1883
+  amqp-address: rabbitmq:1883
+  redis-address: redis:6379
